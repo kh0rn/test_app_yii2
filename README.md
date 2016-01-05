@@ -9,6 +9,14 @@ It includes all commonly used configurations that would allow you to focus on ad
 features to your application.
 
 
+
+
+DATA BASE 
+-------------------
+Create db by name books
+
+import sql 
+
 DIRECTORY STRUCTURE
 -------------------
 
