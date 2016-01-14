@@ -12,7 +12,7 @@ use yii\helpers\Html;
      <?=
         Html::img("@".$model->preview, [
                         'alt'=>'Нет изображения',
-                        'style' => 'width:570px;height:420px;'
+                        //'style' => 'width:570px;height:420px;'
                     ]) ?>
  
     <div class="form-group">

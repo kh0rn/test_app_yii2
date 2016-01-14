@@ -53,7 +53,7 @@ class Authors extends \yii\db\ActiveRecord
             'id' => 'ID',
             'firstname' => 'Firstname',
             'lastname' => 'Lastname',
-            'fullName' => Yii::t('app', 'Full Name')
+            'fullName' => Yii::t('app', 'Автор')
         ];
     }
 }

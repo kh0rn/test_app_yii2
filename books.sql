@@ -32,8 +32,8 @@ CREATE TABLE IF NOT EXISTS `books` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=3 ;
 
 INSERT INTO `books` (`id`, `name`, `date_create`, `date_update`, `preview`, `date`, `author_id`) VALUES
-(1, 'Война и мир', '2015-11-01', '2016-01-04', 'web/images/warpeace.jpg', '2015-11-06', 1),
-(2, 'Подозреваемый', '2016-01-05', '2016-01-05', 'web/images/pod.jpg', '2008-01-01', 3);
+(1, 'Война и мир', '2016-01-14', '2016-01-14', 'web/images/warpeace.jpg', '2016-01-14', 1),
+(2, 'Подозреваемый', '2016-01-14', '2016-01-14', 'web/images/pod.jpg', '2016-01-14', 3);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

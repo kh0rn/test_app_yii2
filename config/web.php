@@ -8,6 +8,7 @@ $config = [
     'bootstrap' => ['log'],
     'language' => 'ru',
     'timezone' => 'Europe/Moscow',
+    'defaultRoute' => 'books/index',
     'components' => [
       'urlManager' => [
               'showScriptName' => false,

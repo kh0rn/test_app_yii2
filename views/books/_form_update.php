@@ -15,10 +15,10 @@ use app\models\Authors;
 
 <div class="books-form">
 
-    <?php $form = ActiveForm::begin(); ?>
+    <?php $form = ActiveForm::begin(); 
 
     $model->date_update = date('Y-m-d', time());
-    
+    ?>
     <?= $form->field($model, 'name')->textInput(['maxlength' => 100]) ?>
 
     <?= $form->field($model, 'date_create')->textInput() ?>
